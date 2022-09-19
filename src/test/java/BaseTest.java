@@ -3,6 +3,9 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageobjests.MainPage;
+import pageobjests.SignInPage;
+import pageobjests.SignInPageImdb;
 
 import static org.assertj.core.api.Assertions.*;
 

@@ -17,6 +17,4 @@ public class PropReader {
     public static String getProperty(String key) {
         return PROPERTIES.getProperty(key);
     }
-
-
 }
