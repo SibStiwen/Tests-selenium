@@ -39,7 +39,7 @@ public class BaseTest {
         signInPageImdb.inputEmail(PropReader.getProperty("mail"));
         signInPageImdb.inputPass(PropReader.getProperty("pass"));
         signInPageImdb.clickSignInSubmit();
-        assertThat(mainPage.getUserName()).isEqualTo(PropReader.getProperty("login"));
+        assertThat(mainPage.getUserName()).isEqualTo(PropReader.getProperty("name"));
     }
 
     @AfterAll
